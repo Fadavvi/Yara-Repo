@@ -55,6 +55,10 @@ wget -q https://raw.githubusercontent.com/VectraThreatLab/reyara/master/re.yar
 rm -rf .git && git init && git remote add -f fsf https://github.com/EmersonElectricCo/fsf  > /dev/null && echo 'fsf-server/yara' >> .git/info/sparse-checkout && git config core.sparseCheckout true && git config pull.rebase false && git pull fsf master > /dev/null
 rm -rf .git && git init && git remote add -f Cyber-Defence https://github.com/nccgroup/Cyber-Defence/  > /dev/null && echo 'Signatures/yara' >> .git/info/sparse-checkout && git config core.sparseCheckout true && git config pull.rebase false && git pull Cyber-Defence master > /dev/null
 rm -rf .git && git init && git remote add -f malware-analysis https://github.com/SpiderLabs/malware-analysis  > /dev/null && echo 'Yara' >> .git/info/sparse-checkout && git config core.sparseCheckout true && git config pull.rebase false && git pull malware-analysis master > /dev/null
+###
+rm -rf .git && git init && git remote add -f ThreatHunting https://github.com/GossiTheDog/ThreatHunting > /dev/null && echo 'ThreatHunting' >> .git/info/sparse-checkout && git config core.sparseCheckout true && git config pull.rebase false && git pull ThreatHunting master > /dev/null
+
+###
 
 clear
 rm -rf .git
