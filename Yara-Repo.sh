@@ -57,9 +57,12 @@ rm -rf .git && git init && git remote add -f Cyber-Defence https://github.com/nc
 rm -rf .git && git init && git remote add -f malware-analysis https://github.com/SpiderLabs/malware-analysis  > /dev/null && echo 'Yara' >> .git/info/sparse-checkout && git config core.sparseCheckout true && git config pull.rebase false && git pull malware-analysis master > /dev/null
 ###
 rm -rf .git && git init && git remote add -f ThreatHunting https://github.com/GossiTheDog/ThreatHunting > /dev/null && echo 'ThreatHunting' >> .git/info/sparse-checkout && git config core.sparseCheckout true && git config pull.rebase false && git pull ThreatHunting master > /dev/null
+### From Awesome Community  
+rm -rf .git && git init && git remote add -f TheSweeper-Rules https://github.com/Jistrokz/TheSweeper-Rules > /dev/null && echo 'yara' >> .git/info/sparse-checkout && git config core.sparseCheckout true && git config pull.rebase false && git pull TheSweeper-Rules main > /dev/null
+git clone -q https://github.com/miladkahsarialhadi/RulesSet milad_kahsarialhadi
+wget -q https://raw.githubusercontent.com/gil121983/obfuscatedPHP/master/obfuscatdPHP.yar
 
 ###
-
 clear
 rm -rf .git
 echo -e "Rules path: /opt/yara-repo\n"
