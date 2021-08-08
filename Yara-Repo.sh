@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/usr/bin/env bash
 RED='\e[31m'
 NC='\033[0m'
 clear
@@ -61,6 +61,20 @@ rm -rf .git && git init && git remote add -f ThreatHunting https://github.com/Go
 rm -rf .git && git init && git remote add -f TheSweeper-Rules https://github.com/Jistrokz/TheSweeper-Rules > /dev/null && echo 'yara' >> .git/info/sparse-checkout && git config core.sparseCheckout true && git config pull.rebase false && git pull TheSweeper-Rules main > /dev/null
 git clone -q https://github.com/miladkahsarialhadi/RulesSet milad_kahsarialhadi
 wget -q https://raw.githubusercontent.com/gil121983/obfuscatedPHP/master/obfuscatdPHP.yar
+rm -rf .git && git init && git remote add -f binaryalert https://github.com/airbnb/binaryalert > /dev/null && echo 'rules/public' >> .git/info/sparse-checkout && git config core.sparseCheckout true && git config pull.rebase false && git pull binaryalert master > /dev/null && mkdir binaryalert-rules && mv rules/public/* binaryalert-rules && rm -rf rules/public/
+rm -rf .git && git init && git remote add -f indicators https://github.com/fideliscyber/indicators> /dev/null && echo 'yararules' >> .git/info/sparse-checkout && git config core.sparseCheckout true && git config pull.rebase false && git pull indicators master > /dev/null && mv yararules fideliscyber
+rm -rf .git && git init && git remote add -f red_team_tool_countermeasures https://github.com/fireeye/red_team_tool_countermeasures > /dev/null && echo 'rules' >> .git/info/sparse-checkout && git config core.sparseCheckout true && git config pull.rebase false && git pull red_team_tool_countermeasures master > /dev/null && mv rules red_team_tool_countermeasures 
+git clone -q https://github.com/f0wl/yara_rules f0wl-rules
+rm -rf .git && git init && git remote add -f fsf https://github.com/EmersonElectricCo/fsf > /dev/null && echo 'fsf-server/yara' >> .git/info/sparse-checkout && git config core.sparseCheckout true && git config pull.rebase false && git pull fsf master > /dev/null
+git clone -q https://github.com/jeFF0Falltrades/YARA-Signatures jeFF0Falltrades
+wget -q https://raw.githubusercontent.com/tylabs/qs_old/master/quicksand_exe.yara
+wget -q https://raw.githubusercontent.com/tylabs/qs_old/master/quicksand_exploits.yara
+wget -q https://raw.githubusercontent.com/tylabs/qs_old/master/quicksand_general.yara
+git clone -q https://github.com/securitymagic/yara securitymagic
+git clone -q https://github.com/StrangerealIntel/DailyIOC
+git clone -q https://github.com/t4d/PhishingKit-Yara-Rules 
+git clone -q https://github.com/x64dbg/yarasigs x64dbg_yarasigs
+git clone -q https://github.com/thewhiteninja/yarasploit
 
 ###
 clear
