@@ -3,14 +3,14 @@ RED='\e[31m'
 NC='\033[0m'
 clear
 
-echo -e ${RED}' =============================\n'
-echo -e '|      Yara repository        |\n'
-echo -e '|-=-=-=-=-=-=-=-=-=-=-=-=-=-=-|\n'
-echo -e '|       Version  0.0.1        |\n'
-echo -e '|       Milad  Fadavvi        |\n'
-echo -e '|     Git 2.28 or Higher      |\n'
-echo -e '|   * Run script as Root *    |\n'
-echo -e ' =============================\n\n'${NC}
+printf ${RED}' =============================\n'
+printf '|      Yara repository        |\n'
+printf '|-=-=-=-=-=-=-=-=-=-=-=-=-=-=-|\n'
+printf '|       Version  0.0.1        |\n'
+printf '|       Milad  Fadavvi        |\n'
+printf '|     Git 2.28 or Higher      |\n'
+printf '|   * Run script as Root *    |\n'
+printf ' =============================\n\n'${NC}
 sleep 10
 
 mkdir /opt/yara-repo 2> /dev/null
@@ -75,7 +75,8 @@ git clone -q https://github.com/StrangerealIntel/DailyIOC
 git clone -q https://github.com/t4d/PhishingKit-Yara-Rules 
 git clone -q https://github.com/x64dbg/yarasigs x64dbg_yarasigs
 git clone -q https://github.com/thewhiteninja/yarasploit
-
+git clone -q https://github.com/mokuso/yara-rules mokuso
+rm -rf .git && git init && git remote add -f YaraRules https://github.com/5l1v3r1/yaraRules > /dev/null && echo 'YaraRules' >> .git/info/sparse-checkout && git config core.sparseCheckout true && git config pull.rebase false && git pull yaraRules master > /dev/null
 ###
 clear
 rm -rf .git
