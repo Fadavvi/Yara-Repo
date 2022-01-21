@@ -77,6 +77,9 @@ git clone -q https://github.com/x64dbg/yarasigs x64dbg_yarasigs
 git clone -q https://github.com/thewhiteninja/yarasploit
 git clone -q https://github.com/mokuso/yara-rules mokuso
 rm -rf .git && git init && git remote add -f YaraRules https://github.com/5l1v3r1/yaraRules > /dev/null && echo 'YaraRules' >> .git/info/sparse-checkout && git config core.sparseCheckout true && git config pull.rebase false && git pull yaraRules master > /dev/null
+git clone -q https://github.com/telekom-security/malware_analysis telekom-security
+git clone -q https://github.com/tbarabosch/apihash_to_yara apihash_to_yara
+git clone -q https://github.com/tillmannw/yara-rules tillmannw
 ###
 clear
 rm -rf .git
