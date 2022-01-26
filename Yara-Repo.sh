@@ -91,7 +91,10 @@ git clone -q https://github.com/jtrombley90/Yara_Rules jtrombley90
 git clone -q https://github.com/ail-project/ail-yara-rules ail-project
 git clone -q https://github.com/Yara-Rules/rules/blob/master/malware/DarkComet.yar
 git clone -q https://github.com/mandiant/sunburst_countermeasures mandiant
-
+git clone -q https://github.com/Te-k/cobaltstrike Te-k
+git clone -q https://github.com/SEKOIA-IO/Community SEKOIA-IO
+git clone -q https://github.com/NVISOsecurity/YARA NVISOsecurity
+git clone -q https://github.com/t4d/PhishingKit-Yara-Search t4d
 
 ###
 clear
