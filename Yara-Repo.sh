@@ -95,6 +95,13 @@ git clone -q https://github.com/Te-k/cobaltstrike Te-k
 git clone -q https://github.com/SEKOIA-IO/Community SEKOIA-IO
 git clone -q https://github.com/NVISOsecurity/YARA NVISOsecurity
 git clone -q https://github.com/t4d/PhishingKit-Yara-Search t4d
+git clone -q https://github.com/Phoul/yara_rules Phoul
+git clone -q https://github.com/seyyid-bh/FireEyeHackDetection seyyid-bh
+git clone -q https://github.com/ahhh/YARA ahhh
+git clone -q https://github.com/3vangel1st/Yara 3vangel1st
+git clone -q https://github.com/FerdiGul/Yara-Rules FerdiGul
+git clone -q https://github.com/Sec-Soup/Yara-Rules Sec-Soup
+git clone -q https://github.com/fpt-eagleeye/rules fpt-eagleeye
 
 ###
 clear
