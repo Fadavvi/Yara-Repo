@@ -87,6 +87,12 @@ rm -rf .git && git init && git remote add -f YaraRules https://github.com/5l1v3r
 git clone -q https://github.com/telekom-security/malware_analysis telekom-security
 git clone -q https://github.com/tbarabosch/apihash_to_yara apihash_to_yara
 git clone -q https://github.com/tillmannw/yara-rules tillmannw
+git clone -q https://github.com/jtrombley90/Yara_Rules jtrombley90
+git clone -q https://github.com/ail-project/ail-yara-rules ail-project
+git clone -q https://github.com/Yara-Rules/rules/blob/master/malware/DarkComet.yar
+git clone -q https://github.com/mandiant/sunburst_countermeasures mandiant
+
+
 ###
 clear
 rm -rf .git
