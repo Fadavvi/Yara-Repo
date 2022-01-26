@@ -67,9 +67,16 @@ rm -rf .git && git init && git remote add -f red_team_tool_countermeasures https
 git clone -q https://github.com/f0wl/yara_rules f0wl-rules
 rm -rf .git && git init && git remote add -f fsf https://github.com/EmersonElectricCo/fsf > /dev/null && echo 'fsf-server/yara' >> .git/info/sparse-checkout && git config core.sparseCheckout true && git config pull.rebase false && git pull fsf master > /dev/null
 git clone -q https://github.com/jeFF0Falltrades/YARA-Signatures jeFF0Falltrades
+
 wget -q https://raw.githubusercontent.com/tylabs/qs_old/master/quicksand_exe.yara
 wget -q https://raw.githubusercontent.com/tylabs/qs_old/master/quicksand_exploits.yara
 wget -q https://raw.githubusercontent.com/tylabs/qs_old/master/quicksand_general.yara
+wget -q --output-document tlansec_pe_check.yar https://gist.githubusercontent.com/tlansec/4be4e92cbbd3354cf53386ef6edf0676/raw/f6cef23a2d3e6de6ead5b83c53801dbe1b653bf6/pe_check.yar
+wget -q --output-document shellcromancer_mal_sysjoker_macOS.yara https://gist.githubusercontent.com/shellcromancer/e9e8c8ca95e0f31fc8b92ebc82b59303/raw/f706b420f6370d034781f605e55879e7d3322c1e/mal_sysjoker_macOS.yara
+wget -q --output-document silascutler_WhisperGate.yar https://gist.githubusercontent.com/silascutler/f8e518564a8a1410ba58f0ab5ed493f6/raw/b465af32c4b546fb4ab3604fbe3c5d363aca7f2c/%2523WhisperGate%2520Yara%2520Rule
+wget -q --output-document captainGeech42_scriptobf_replaceempty.yara https://gist.githubusercontent.com/captainGeech42/3e60e639ea62dd6e907e3e1e7cbac0fc/raw/43b3ef99249eb9b47c7062a98a3bdadad7863d65/scriptobf_replaceempty.yara
+wget -q --output-document schrodyn_windows_drivers.yara https://gist.githubusercontent.com/schrodyn/30ca12d15e0e069224204adca41d5256/raw/7ff09541c30977173fb5dc192d5820a13f31a89d/windows_drivers.yara
+
 git clone -q https://github.com/securitymagic/yara securitymagic
 git clone -q https://github.com/StrangerealIntel/DailyIOC
 git clone -q https://github.com/t4d/PhishingKit-Yara-Rules 
