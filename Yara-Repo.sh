@@ -112,5 +112,8 @@ git clone -q https://github.com/naxonez/YaraRules naxonez
 clear
 rm -rf .git
 echo -e "Rules path: /opt/yara-repo\n"
-echo "Number of YARA Rules: " && find . -name "*.yar*" -type f | wc -l && echo "Maybe contain duplicate rules in differnt Repo(s)!"
+echo "Number of YARA Rules with extension .yar*  : " && find . -name "*.yar*" -type f | wc -l && echo "Maybe contain duplicate rules in different Repo(s)!"
+echo "Number of YARA Rules with extension .yr*   : " && find . -name "*.yr*" -type f | wc -l && echo "Maybe contain duplicate rules in different Repo(s)!"
+echo "Number of YARA Rules with extension .rules : " && find . -name "*.rules" -type f | wc -l && echo "Maybe contain duplicate rules in different Repo(s)!"
+
 exit 0
