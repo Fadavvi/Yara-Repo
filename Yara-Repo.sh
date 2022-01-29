@@ -102,6 +102,8 @@ git clone -q https://github.com/3vangel1st/Yara 3vangel1st
 git clone -q https://github.com/FerdiGul/Yara-Rules FerdiGul
 git clone -q https://github.com/Sec-Soup/Yara-Rules Sec-Soup
 git clone -q https://github.com/fpt-eagleeye/rules fpt-eagleeye
+git clone -q https://github.com/timb-machine/linux-malware timb-machine
+git clone -q https://github.com/JPCERTCC/jpcert-yara JPCERTCC
 
 ###
 clear
