@@ -9,7 +9,7 @@ Free alternative for: https://valhalla.nextron-systems.com/
 
 -------------------------------------
 
-Developer : Milad Fadavvi
+Main Contributor: Milad Fadavvi
 
 
 Collaborator: Pierre Gronau Ndaal
