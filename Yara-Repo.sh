@@ -107,6 +107,9 @@ git clone -q https://github.com/hpthreatresearch/tools hpthreatresearch
 git clone -q https://github.com/timb-machine/linux-malware timb-machine
 git clone -q https://github.com/JPCERTCC/jpcert-yara JPCERTCC
 git clone -q https://github.com/naxonez/YaraRules naxonez
+git clone -q https://github.com/StrangerealIntel/Orion StrangerealIntel
+git clone -q https://github.com/cocaman/yararules cocaman
+git clone -q https://github.com/sebdraven/yara-rules sebdraven
 
 ###
 clear
