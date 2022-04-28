@@ -110,6 +110,12 @@ git clone -q https://github.com/naxonez/YaraRules naxonez
 git clone -q https://github.com/StrangerealIntel/Orion StrangerealIntel
 git clone -q https://github.com/cocaman/yararules cocaman
 git clone -q https://github.com/sebdraven/yara-rules sebdraven
+git clone -q https://github.com/rakovskij-stanislav/pyc_rules rakovskij-stanislav
+git clone -q https://github.com/AhmetPayaslioglu/MyYaraRules AhmetPayaslioglu
+git clone -q https://github.com/righel/yara-rules righel
+git clone -q https://github.com/manhalab/Yara_Rulez manhalab
+git clone -q https://github.com/rivitna/Malware rivitna
+git clone -q https://github.com/tsumarios/AMAYARA-Lab tsumarios
 
 ###
 clear
