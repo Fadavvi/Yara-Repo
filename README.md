@@ -12,4 +12,4 @@ Free alternative for: https://valhalla.nextron-systems.com/
 Main Contributor: Milad Fadavvi
 
 
-Collaborator: Pierre Gronau Ndaal
+Collaborator: Pierre Gronau ndaal
