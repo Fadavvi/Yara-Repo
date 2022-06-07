@@ -116,6 +116,20 @@ git clone -q https://github.com/righel/yara-rules righel
 git clone -q https://github.com/manhalab/Yara_Rulez manhalab
 git clone -q https://github.com/rivitna/Malware rivitna
 git clone -q https://github.com/tsumarios/AMAYARA-Lab tsumarios
+git clone -v https://github.com/nasbench/Yara-Rules nasbench
+git clone -v https://github.com/JPCERTCC/MalConfScan MalConfScan
+git clone -v https://github.com/n0leptr/yara-rules n0leptr
+git clone -v https://github.com/ulisesrc/Yara-Rule ulisesrc
+git clone -v https://github.com/alex-cart/LEAF alex-cart
+git clone -v https://github.com/ChaitanyaHaritash/rules ChaitanyaHaritash
+git clone -v https://github.com/farhanfaisal/yararule_web farhanfaisal
+git clone -v https://github.com/BassGonzilla/YARA BassGonzilla
+git clone -v https://github.com/Sprite-Pop/YaraRules Sprite-Pop
+git clone -v https://github.com/alvosec/yara-rules alvosec
+git clone -v https://github.com/th3b3ginn3r/CVE-2022-26134-Exploit-Detection th3b3ginn3r
+git clone -v https://gitlab.com/pollonegro/yara-rules/ pollonegro
+git clone -v https://gitlab.com/gavz/yara-rules gavz
+git clone -v https://gitlab.com/CashlessConsumer/yararules CashlessConsumer
 
 ###
 clear
