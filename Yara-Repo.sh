@@ -177,6 +177,8 @@ git clone -v https://github.com/galkofahi/Yara-Rules galkofahi
 git clone -v https://github.com/yeti-platform/TibetanBrownBear TibetanBrownBear
 git clone -v https://github.com/knightsc/XProtect knightsc_XProtect
 git clone -v https://github.com/viper-framework/yara-rules viper-framework
+git clone -v https://gitlab.com/ndaal_open_source/ndaal_yara_passwords_default ndaal_yara_passwords_default
+git clone -v https://gitlab.com/ndaal_open_source/ndaal_yara_passwords_weak ndaal_yara_passwords_weak 
 
 ###
 clear
