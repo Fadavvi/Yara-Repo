@@ -67,7 +67,7 @@ rm -rf .git && git init && git remote add -f red_team_tool_countermeasures https
 git clone -q https://github.com/f0wl/yara_rules f0wl-rules
 rm -rf .git && git init && git remote add -f fsf https://github.com/EmersonElectricCo/fsf > /dev/null && echo 'fsf-server/yara' >> .git/info/sparse-checkout && git config core.sparseCheckout true && git config pull.rebase false && git pull fsf master > /dev/null
 git clone -q https://github.com/jeFF0Falltrades/YARA-Signatures jeFF0Falltrades
-git clone -v https://github.com/SupportIntelligence/Icewater Icewater
+git clone -q https://github.com/SupportIntelligence/Icewater Icewater
 
 wget -q https://raw.githubusercontent.com/tylabs/qs_old/master/quicksand_exe.yara
 wget -q https://raw.githubusercontent.com/tylabs/qs_old/master/quicksand_exploits.yara
