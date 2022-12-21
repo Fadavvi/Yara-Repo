@@ -67,6 +67,7 @@ rm -rf .git && git init && git remote add -f red_team_tool_countermeasures https
 git clone -q https://github.com/f0wl/yara_rules f0wl-rules
 rm -rf .git && git init && git remote add -f fsf https://github.com/EmersonElectricCo/fsf > /dev/null && echo 'fsf-server/yara' >> .git/info/sparse-checkout && git config core.sparseCheckout true && git config pull.rebase false && git pull fsf master > /dev/null
 git clone -q https://github.com/jeFF0Falltrades/YARA-Signatures jeFF0Falltrades
+git clone -v https://github.com/SupportIntelligence/Icewater Icewater
 
 wget -q https://raw.githubusercontent.com/tylabs/qs_old/master/quicksand_exe.yara
 wget -q https://raw.githubusercontent.com/tylabs/qs_old/master/quicksand_exploits.yara
@@ -178,7 +179,8 @@ git clone -v https://github.com/yeti-platform/TibetanBrownBear TibetanBrownBear
 git clone -v https://github.com/knightsc/XProtect knightsc_XProtect
 git clone -v https://github.com/viper-framework/yara-rules viper-framework
 git clone -v https://gitlab.com/ndaal_open_source/ndaal_yara_passwords_default ndaal_yara_passwords_default
-git clone -v https://gitlab.com/ndaal_open_source/ndaal_yara_passwords_weak ndaal_yara_passwords_weak 
+git clone -v https://gitlab.com/ndaal_open_source/ndaal_yara_passwords_weak ndaal_yara_passwords_weak
+
 
 ###
 clear
