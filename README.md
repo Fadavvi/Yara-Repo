@@ -1,11 +1,11 @@
 # Yara-Repo
-A script to collect (the most famous) Yara rules from more than 40 free resources.
+A script to collect (the most famous) Yara rules from more than 150 free resources.
 
 Free alternative to: https://valhalla.nextron-systems.com/
 
 -------------------------------------
 
-**If you know a useful repository, feel free to open an issue and sending the link.**
+**If you know a helpful repository, feel free to open an issue and send the link.**
 
 -------------------------------------
 
