@@ -180,6 +180,19 @@ git clone -v https://github.com/knightsc/XProtect knightsc_XProtect
 git clone -v https://github.com/viper-framework/yara-rules viper-framework
 git clone -v https://gitlab.com/ndaal_open_source/ndaal_yara_passwords_default ndaal_yara_passwords_default
 git clone -v https://gitlab.com/ndaal_open_source/ndaal_yara_passwords_weak ndaal_yara_passwords_weak
+git clone -v https://github.com/straysheep-dev/malware-analysis straysheep-dev_malware-analysis
+git clone -v https://gitlab.com/Randsec/triage-yara-rules Randsec
+git clone -v https://github.com/laruence/yar laruence
+git clone -v https://github.com/100DaysofYARA/2023 100DaysofYARA_2023
+git clone -v https://github.com/100DaysofYARA/2022 100DaysofYARA_2022
+git clone -v https://github.com/google/vxsig google_vxsig
+git clone -v https://github.com/dr4k0nia/yara-rules dr4k0nia
+git clone -v https://github.com/MayerDaniel/100DY_2023 MayerDaniel
+git clone -v https://github.com/MayerDaniel/100DY_2023 MayerDaniel_100DY_2023
+git clone -v https://github.com/elceef/yara-rulz elceef_yara-rulz 
+git clone -v https://github.com/jstrosch/malware-signatures jstrosch_malware-signatures
+git clone -v https://github.com/Idov31/Sandman Idov31_Sandman
+git clone -v https://github.com/drbeni/malquarium 
 
 
 ###
