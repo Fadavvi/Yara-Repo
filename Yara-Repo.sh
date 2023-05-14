@@ -187,12 +187,20 @@ git clone -v https://github.com/100DaysofYARA/2023 100DaysofYARA_2023
 git clone -v https://github.com/100DaysofYARA/2022 100DaysofYARA_2022
 git clone -v https://github.com/google/vxsig google_vxsig
 git clone -v https://github.com/dr4k0nia/yara-rules dr4k0nia
-git clone -v https://github.com/MayerDaniel/100DY_2023 MayerDaniel
 git clone -v https://github.com/MayerDaniel/100DY_2023 MayerDaniel_100DY_2023
 git clone -v https://github.com/elceef/yara-rulz elceef_yara-rulz 
 git clone -v https://github.com/jstrosch/malware-signatures jstrosch_malware-signatures
 git clone -v https://github.com/Idov31/Sandman Idov31_Sandman
-git clone -v https://github.com/drbeni/malquarium 
+git clone -v https://github.com/drbeni/malquarium
+git clone -v https://github.com/0xThiebaut/Signatures 0xThiebaut_Signatures
+git clone -v https://github.com/hvs-consulting/ioc_signatures hvs-consulting_ioc_signatures
+git clone -v https://github.com/phbiohazard/Yara phbiohazard_Yara
+git clone -v https://github.com/delivr-to/detections delivr-to_detections
+git clone -v https://github.com/mandiant/red_team_tool_countermeasures mandiant_red_team_tool_countermeasures
+git clone -v https://github.com/albertzsigovits/malware-yara albertzsigovits_malware-yara 
+git clone -v https://github.com/candk-cyber/Custom-Rules-ClamAV candk-cyber_Custom-Rules-ClamAV
+git clone -v https://github.com/fox-it/mkYARA fox-it_mkYARA
+git clone -v https://github.com/fox-it/operation-wocao fox-it_operation-wocao
 
 
 ###
