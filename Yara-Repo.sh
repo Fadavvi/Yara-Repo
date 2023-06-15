@@ -6,7 +6,7 @@ clear
 printf ${RED}' =============================\n'
 printf '|      Yara repository        |\n'
 printf '|-=-=-=-=-=-=-=-=-=-=-=-=-=-=-|\n'
-printf '|       Version  0.0.1        |\n'
+printf '|       Version  0.0.2        |\n'
 printf '|       Milad  Fadavvi        |\n'
 printf '|     Git 2.28 or Higher      |\n'
 printf '|   * Run script as Root *    |\n'
@@ -183,8 +183,10 @@ git clone -v https://gitlab.com/ndaal_open_source/ndaal_yara_passwords_weak ndaa
 git clone -v https://github.com/straysheep-dev/malware-analysis straysheep-dev_malware-analysis
 git clone -v https://gitlab.com/Randsec/triage-yara-rules Randsec
 git clone -v https://github.com/laruence/yar laruence
-git clone -v https://github.com/100DaysofYARA/2023 100DaysofYARA_2023
 git clone -v https://github.com/100DaysofYARA/2022 100DaysofYARA_2022
+git clone -v https://github.com/100DaysofYARA/2023 100DaysofYARA_2023
+git clone -v https://github.com/stvemillertime/100daysofYARA-2022 stvemillertime_100daysofYARA-2022
+git clone -v https://github.com/stvemillertime/100daysofYARA-2023 stvemillertime_100daysofYARA-2023
 git clone -v https://github.com/google/vxsig google_vxsig
 git clone -v https://github.com/dr4k0nia/yara-rules dr4k0nia
 git clone -v https://github.com/MayerDaniel/100DY_2023 MayerDaniel_100DY_2023
@@ -201,7 +203,23 @@ git clone -v https://github.com/albertzsigovits/malware-yara albertzsigovits_mal
 git clone -v https://github.com/candk-cyber/Custom-Rules-ClamAV candk-cyber_Custom-Rules-ClamAV
 git clone -v https://github.com/fox-it/mkYARA fox-it_mkYARA
 git clone -v https://github.com/fox-it/operation-wocao fox-it_operation-wocao
-
+git clone -v https://github.com/CYB3RMX/Qu1cksc0pe Qu1cksc0pe
+git clone -v https://github.com/securiteinfo/yara_qakbot
+git clone -v https://github.com/phish-report/IOK phish-report_IOK 
+git clone -v https://github.com/threatlabz/iocs threatlabz_iocs
+git clone -v https://github.com/uptycslabs/yara-rules uptycslabs_yara-rules
+git clone -v https://github.com/eset/malware-ioc eset_malware-ioc 
+git clone -v https://github.com/trendmicro/research trendmicro_research
+git clone -v https://github.com/magicsword-io/LOLDrivers magicsword-io_LOLDrivers
+git clone -v https://github.com/AhmetPayaslioglu/YaraRules AhmetPayaslioglu_YaraRules
+git clone -v https://github.com/zahidadeel/YARA-Rules zahidadeel_YARA-Rules
+git clone -v https://github.com/Cyb3rtus/keepass_CVE-2023-24055_yara_rule Cyb3rtus_keepass_CVE-2023-24055_yara_rule
+git clone -v https://github.com/securiteinfo/expl_outlook_cve_2023_23397_securiteinfo.yar securiteinfo_expl_outlook_cve_2023_23397
+git clone -v https://github.com/airbus-cert/yara-ttd airbus-cert_yara-ttd
+git clone -v https://github.com/3pun0x/RepoTele 3pun0x_RepoTele
+git clone -v https://github.com/3pun0x/YaraRules 3pun0x_YaraRules 
+git clone -v https://github.com/regeciovad/YaraRex-demo regeciovad_YaraRex-demo
+git clone -v https://github.com/michelcrypt4d4mus/pdfalyzer michelcrypt4d4mus_pdfalyzer
 
 ###
 clear
