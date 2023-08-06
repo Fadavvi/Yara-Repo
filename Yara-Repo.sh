@@ -1,16 +1,22 @@
 #!/usr/bin/env bash
 RED='\e[31m'
 NC='\033[0m'
+BOLD='\033[1m'
+WHITE='\033[01;37m'
 clear
 
-printf ${RED}' =============================\n'
-printf '|      Yara repository        |\n'
-printf '|-=-=-=-=-=-=-=-=-=-=-=-=-=-=-|\n'
-printf '|       Version  0.0.2        |\n'
-printf '|       Milad  Fadavvi        |\n'
-printf '|     Git 2.28 or Higher      |\n'
-printf '|   * Run script as Root *    |\n'
-printf ' =============================\n\n'${NC}
+printf ${RED}'▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄\n'
+printf '██░███░█░▄▄▀█░▄▄▀█░▄▄▀█████░▄▄▀█░▄▄█▀▄▄▀█▀▄▄▀\n'
+printf '██▄▀▀▀▄█░▀▀░█░▀▀▄█░▀▀░█▄▄██░▀▀▄█░▄▄█░▀▀░█░██░\n'
+printf '████░███▄██▄█▄█▄▄█▄██▄█████░██░█▄▄▄█░█████▄▄█\n'
+printf '▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀\n'${NC}
+printf ${BOLD}${WHITE}'Version:\t\t0.0.3\n'
+printf 'It requires Git 2.28 or Higher\n'${NC}
+printf ${RED}${BOLD}'\n\tRUN it as ROOT\n\n'${NC}
+printf ${BOLD}${WHITE}'With '${RED}'<3'${NC}' by\n'
+printf '\tMilad Fadavvi\n'
+printf '\tPierre Gronau ndaal\n'
+
 sleep 10
 
 mkdir /opt/yara-repo 2> /dev/null
