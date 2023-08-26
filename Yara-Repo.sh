@@ -226,6 +226,11 @@ git clone -v https://github.com/3pun0x/RepoTele 3pun0x_RepoTele
 git clone -v https://github.com/3pun0x/YaraRules 3pun0x_YaraRules 
 git clone -v https://github.com/regeciovad/YaraRex-demo regeciovad_YaraRex-demo
 git clone -v https://github.com/michelcrypt4d4mus/pdfalyzer michelcrypt4d4mus_pdfalyzer
+git clone -v https://github.com/c3rb3ru5d3d53c/signatures c3rb3ru5d3d53c_signatures
+git clone -v https://github.com/ladar/clamav-data ladar_clamav-data
+git clone -v https://github.com/ruppde/yara_rules ruppde_yara_rules
+git clone -v https://github.com/horsicq/XYara horsicq_XYara 
+git clone -v https://github.com/signalblur/detection-artifacts signalblur_detection-artifacts
 
 ###
 clear
